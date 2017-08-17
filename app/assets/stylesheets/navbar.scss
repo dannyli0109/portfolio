@@ -1,0 +1,51 @@
+$text-color: rgba(255,255,255,0.75);
+.nav-bar{
+  background-color: #24292e !important;
+}
+
+.nav-bar h1{
+  color: $text-color !important;
+}
+
+.nav-bar svg {
+  color: $text-color !important;
+  fill: $text-color !important;
+}
+
+.clear {
+  margin: 0 !important;
+  width: 100%;
+}
+
+.navContainer {
+  padding-right: 15px !important;
+  padding-left: 15px !important;
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+
+.list-item {
+  border-bottom: 1px lightgray solid !important;
+}
+
+.main-container {
+  padding: 30px;
+}
+
+.card {
+  margin: 10px 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: white;
+  border: 1px solid lightgray;
+
+}
+
+.button {
+  margin-top: 20px;
+}
+
+.submit-container {
+  text-align: right;
+  margin: 0 20px; 
+}
