@@ -1,8 +1,11 @@
 # README
 
-### - Design
+### Design
 
 I'm trying to make an app for managing portfolio, so that user can login with their github account and add project to their portfolio.
+
+#### Mockup
+see mockup.pdf file
 
 ### Deployment
 
@@ -24,6 +27,6 @@ I'm trying to make an app for managing portfolio, so that user can login with th
 
 - Adding sharable link for user to share their projects
 - Grid layout for projects
+- Detail page for project
 
-
-[try it](https://damp-plateau-12975.herokuapp.com/) 
+[try it](https://damp-plateau-12975.herokuapp.com/)
