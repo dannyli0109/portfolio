@@ -1,24 +1,21 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### - Design
 
-Things you may want to cover:
+I'm trying to make an app for managing portfolio, so that user can login with their github account and add project to their portfolio.
 
-* Ruby version
+### Deployment
 
-* System dependencies
+- Rails for backend
+- React for front end
 
-* Configuration
+### Tect
 
-* Database creation
+- p5.js for loading screen
+- nokogiri for parse website metadata
+- material-ui and bootstrap for design
 
-* Database initialization
+### Known Issues
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- The app can only add projects, but not edit or delete projects
+- Use get request to add entry to the data base 

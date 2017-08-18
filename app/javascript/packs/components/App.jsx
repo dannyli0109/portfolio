@@ -159,17 +159,21 @@ export default class App extends React.Component {
         }.bind(this), 2000);
 
       } else {
-        this.setState({
-          page: "add",
-          website: {
-            url: url,
-            title: data.title,
-            subHeading: data.subHeading,
-            descriptions: data.description,
-            imageUrl: data.imageUrl
-          },
-          toggleAdd: false
-        })
+        setTimeout(function(){
+
+          this.setState({
+            page: "add",
+            website: {
+              url: url,
+              title: data.title,
+              subHeading: data.subHeading,
+              descriptions: data.description,
+              imageUrl: data.imageUrl
+            },
+            toggleAdd: false
+          })
+        }.bind(this), 2000);
+
       }
 
     })
