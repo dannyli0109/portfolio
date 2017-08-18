@@ -18,4 +18,12 @@ I'm trying to make an app for managing portfolio, so that user can login with th
 ### Known Issues
 
 - The app can only add projects, but not edit or delete projects
-- Use get request to add entry to the data base 
+- Use get request to add entry to the database
+
+### Todo
+
+- Adding sharable link for user to share their projects
+- Grid layout for projects
+
+
+[try it](https://damp-plateau-12975.herokuapp.com/) 
